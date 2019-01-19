@@ -20,7 +20,6 @@ def incr_int_seq_recur(int_seq: [int]) -> [int]:
         # If it doesn't simply increment the value at that index and return.
         int_seq[index] = int_seq[index] + 1
         return int_seq
-
     return incr_int_tail_call(int_seq, len(int_seq) - 1)
 
 
