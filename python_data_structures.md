@@ -16,3 +16,4 @@ mystring = 'abc'
 print(mystring[0])
 # a
 ```
+* In `list_1.extend(list_2) ` *list_1* does not receive copies of *list_2*'s elements, only the references. 
