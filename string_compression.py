@@ -9,6 +9,11 @@ def compress_string(string: str):
     :param string:
     :return:
     """
+    if len(string) == 0:
+        return ""
+    if len(string) == 1:
+        return string + "1"
+
     cur_char = string[0]
     cur_char_num = 1
     output = [] + [cur_char]
